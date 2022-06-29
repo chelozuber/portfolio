@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Open+Sans:wght@300&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
+    margin: 0px;
     
 }
 
@@ -243,14 +243,7 @@ nav .active {
     margin-top: 40px;
 
 }
-#sobre-mi p {
-    height: 90px;
-}
-#sobre-mi h2 {
-    height: 500px;
-    background-color: #E20000;
-    max-width: 100%;
-}
+
 @media (max-width: 750px) {
     #proyectos {
         background-size: contain;
@@ -261,5 +254,184 @@ nav .active {
         background-size: contain;
         background-repeat: no-repeat;
     }
+}
+#sobre-mi h3 {
+    font-size: 14px;
+}
+#sobre-mi h2 {
+    margin-left: 110px;
+    height: 10px;
+    
+    
+}
+.div-java{
+    height: 182px;
+    width: 180px;
+    margin-top: 40px;
+    border: solid 1px white;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 10px;
+}
+.img-java {
+    height: 62px;
+    width: 64px;
+    
+}
+.img-php {
+    height: 32px;
+    width: 64px;
+}
+.img-html {
+    height: 90px;
+    width: 90px;
+}
+.img-react {
+    height: 70px;
+    width: 70px;
+}
+.img-query {
+    height: 80px;
+    width: 80px;
+}
+.img-boot {
+    height: 80px;
+    width: 80px;
+}
+.img-laravel {
+    height: 80px;
+    width: 80px;
+}
+.img-maria {
+    height: 80px;
+    width: 80px;
+}
+.img-css {
+    height: 80px;
+    width: 80px;
+}
+.img-git {
+    height: 80px;
+    width: 80px;
+}
+.img-apache {
+    height: 80px;
+    width: 80px;
+}
+.img-mercado {
+    height: 80px;
+    width: 80px;
+}
+
+.div-php {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+
+}
+.div-html {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-react {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-query {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-bootstrap {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-laravel {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-sql {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color:white;
+        margin-left: 10px;
+}
+.div-css {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-git {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-apache {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.div-mercado {
+    height: 182px;
+        width: 180px;
+        margin-top: 40px;
+        border: solid 1px white;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 10px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.tecnologias {
+    background-color: #E20000;
+    margin-top: 20px;
 }
 
