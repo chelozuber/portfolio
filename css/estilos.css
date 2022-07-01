@@ -434,4 +434,47 @@ nav .active {
     background-color: #E20000;
     margin-top: 20px;
 }
+.fa-briefcase {
+    font-size: 26px;
+    margin-top: 40px;
+    
+}
+#experiencia #formacion h2 {
+    font-size: 26px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+   
+}
+.academica {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.cuadrado {
+    margin-top: 65px;
+}
+#idiomas {
+    height: 250px;
+    background-color: #eee;
+    margin-top: 50px;
+}
+#idiomas h4 {
+    margin-top: 80px;
+    
+}
+.fa-comment-alt {
+    color: white;
+    font-size: 70px;
+    margin-top: 85px;
+    margin-left: 145px;
+}
+.fa-star {
+    color: white;
+    font-size: 70px;
+    margin-top: 85px;
+    margin-left: 145px;
+}
+
+
 
