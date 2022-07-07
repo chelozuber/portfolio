@@ -19,20 +19,12 @@ body {
         background-size: cover;
 
 }
-#inicio footer footer a {
+
+#inicio footer .fa-github {
+    font-size: 30px;
     color: white;
-}
-#inicio  .fa-github {
-    color: #ff4a49;
-        background-color: white;
-        font-size: 20px;
-        border: 0px;
-        height: 32px;
-        width: 32px;
-        text-align: center;
-        padding: 6px 0 0 0;
-        border-radius: 80px;
-        margin: 0 8px;
+    
+    
 }
 .btn-rojo{
     background-color: #E20000;
@@ -109,7 +101,7 @@ p {
     background-color: #370a6d;
     color: white;
     height: 70px;
-    width: 50px;
+    width: 60px;
     font-size: 32px;
     text-align: center;
     padding-top: 17px;
@@ -117,8 +109,24 @@ p {
     border-top-left-radius: 12px;
 
 }
+#contacto .fa-whatsapp {
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    background-color: #370a6d;
+    color: white;
+    height: 70px;
+    width: 60px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 17px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+
+}
 #contacto footer { 
-    color: white; 
+    color: white;
+    font-weight: 100; 
 }
 #contacto footer a {
     color: white;
@@ -127,7 +135,7 @@ p {
     font-size: 30px;
     color: white;
 }
-#contacto footer .fa-linkedin {
+#contacto footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -137,24 +145,26 @@ p {
     text-align: center;
     padding: 8px 0 0 0;
     border-radius: 80px;
-    margin: 0 8px;
+    margin-left:  10px;
+    margin-left: 6px;
 
 }
 #proyectos footer {
     color: #E20000;
+    font-weight: 100;
 }
-
 #proyectos footer a {
     color: #E20000;
-    
+    font-weight: 100;
 }
+
 
 #proyectos footer .fa-github {
     font-size: 30px;
     color:#E20000;
 }
 
-#proyectos footer .fa-linkedin {
+#proyectos footer .fa-linkedin-in {
     color: white;
     background-color: #E20000;
     font-size: 20px;
@@ -175,12 +185,12 @@ form input[type=text], form input[type=email], form input[type=tel], form select
     resize: none;
 }
 
-.cohete {
+#inicio main .tubo {
     height: 400px;
     margin:24px 0px 0px;
     padding: 0px 12px;
 }
-.cohete:hover{
+#inicio main .tubo:hover{
     height: 410px;
 }
 .p-1 {
@@ -264,188 +274,124 @@ nav .active {
     
     
 }
-.div-java{
-    height: 182px;
-    width: 180px;
-    margin-top: 40px;
-    border: solid 1px white;
-    border-radius: 6px;
-    background-color: white;
-    margin-left: 10px;
-}
-.img-java {
-    height: 62px;
-    width: 64px;
-    
-}
-.img-php {
-    height: 32px;
-    width: 64px;
-}
-.img-html {
-    height: 90px;
-    width: 90px;
-}
-.img-react {
-    height: 70px;
-    width: 70px;
-}
-.img-query {
-    height: 80px;
-    width: 80px;
-}
-.img-boot {
-    height: 80px;
-    width: 80px;
-}
-.img-laravel {
-    height: 80px;
-    width: 80px;
-}
-.img-maria {
-    height: 80px;
-    width: 80px;
-}
-.img-css {
-    height: 80px;
-    width: 80px;
-}
-.img-git {
-    height: 80px;
-    width: 80px;
-}
-.img-apache {
-    height: 80px;
-    width: 80px;
-}
-.img-mercado {
-    height: 80px;
-    width: 80px;
-}
 
-.div-php {
-    height: 182px;
-        width: 180px;
+
+
+.div-logo {
+        height: 195px;
+        width: 175px;
         margin-top: 40px;
         border: solid 1px white;
-        border-radius: 6px;
+        border-radius: 4px;
         background-color: white;
-        margin-left: 10px;
+        margin-right: 15px;
 
 }
-.div-html {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-react {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-query {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-bootstrap {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-laravel {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-sql {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color:white;
-        margin-left: 10px;
-}
-.div-css {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-git {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-apache {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
-}
-.div-mercado {
-    height: 182px;
-        width: 180px;
-        margin-top: 40px;
-        border: solid 1px white;
-        border-radius: 6px;
-        background-color: white;
-        margin-left: 10px;
+.img-logo {
+    height: 55px;
+    width: 65px;
 }
 .img-circle {
     margin: 1em auto;
     display: block;
-    background-color: #fff;
     padding: 10px;
     border-radius: 50%;
+    border: none;
+    width: 300px;
+    height: 230px;
+}
+
+.btn-enviar {
+    padding: 7px 20px 7px 20px;
 }
 .tecnologias {
-    background-color: #E20000;
+    background: linear-gradient(90deg, rgba(199, 33, 44, 1) 0%, rgba(200, 54, 38, 1) 37%);
     margin-top: 20px;
+    height: 600px;
 }
+.tecnologias h2 {
+    font-size: 24px;
+
+}
+#experiencia h2 {
+    font-size: 24px;
+    color: #370a6d;
+    margin-left: 0px;
+}
+#cursos h2 {
+    font-size: 24px;
+    color: #E20000;
+    margin-left: 0px;
+}
+#formacion h2 {
+    font-size: 24px;
+    color: #E20000;
+    margin-left: 0px;
+}
+#tecnologias h3 {
+    font-size: 14px;
+    font-weight: 300px;
+    color: #282828;
+}
+#cursos h3 {
+    font-weight: 600;
+    color: #6a6a6a;
+    font-size: 18px;
+}
+#cursos h4 {
+    color: #E20000;
+}
+#cursos p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+#cursos h5 {
+color: #6a6a6a;
+font-size: 14px;
+}
+#formacion {
+    font-weight: 600;
+        color: #6a6a6a;
+        font-size: 18px;
+}
+#formacion h4 {
+    color: #E20000;
+}
+#formacion p {
+    color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+}
+#formacion h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+#formacion h3 {
+    font-weight: 600;
+    color: #6a6a6a;
+    font-size: 18px;
+}
+#experiencia h3 {
+    font-weight: 600;
+        color: #6a6a6a;
+        font-size: 18px;
+}
+#experiencia h4 {
+    color: #370a6d;
+    font-size: 17px;
+}
+#experiencia h5 {
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 500;
+}
+
 .fa-briefcase {
     font-size: 26px;
     margin-top: 40px;
     
 }
-#experiencia #formacion h2 {
-    font-size: 26px;
-    margin-left: 0px;
-    margin-top: 0px;
-    
-   
-}
+
 .academica {
     margin-left: 0px;
     padding-left: 0px;
@@ -475,6 +421,56 @@ nav .active {
     margin-top: 85px;
     margin-left: 145px;
 }
+#sobre-mi footer {
+    color: #E20000;
+    font-weight: 100;
+}
+.mail {
+    color: #E20000;
+    font-weight: 100;
+}
+.depc {
+    color: #E20000;
+    font-weight: 100;   
+}
+#sobre-mi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+    padding: 0px 10px 0px 0px;
+}
+#sobre-mi footer .fa-linkedin-in {
+    font-size: 20px;
+    color: #ff4a49;
+    padding: 0px 10px 0px 0px;
+    font-weight: 100;
+}
+#sobre-mi footer .fa-whatsapp {
+    color: white;
+}
+#sobre-mi .btn-whatsapp {
+    width: 60px;
+    font-size: 30px;
+}
+#sobre-mi img .aerobic {
+    color: #6a6a6a;
+}
+#inicio footer .fa-whatsapp {
+    color: white;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 2px;
+}
 
 
+#inicio footer .btn-whatsapp {
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    background-color: #370a6d;
+    width: 60px;
+    padding-top: 8px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 
+}
