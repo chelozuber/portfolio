@@ -211,6 +211,14 @@ nav .active {
 .proyecto {
     background-color: white;
 }
+#sobre-mi .depc:hover {
+    color: #E20000;
+
+}
+#sobre-mi .mail:hover {
+    color: #E20000;
+
+}
 .proyecto h2 {
     font-size: 16px;
     color: white;
@@ -400,27 +408,8 @@ font-size: 14px;
 .cuadrado {
     margin-top: 65px;
 }
-#idiomas {
-    height: 250px;
-    background-color: #eee;
-    margin-top: 50px;
-}
-#idiomas h4 {
-    margin-top: 80px;
-    
-}
-.fa-comment-alt {
-    color: white;
-    font-size: 70px;
-    margin-top: 85px;
-    margin-left: 145px;
-}
-.fa-star {
-    color: white;
-    font-size: 70px;
-    margin-top: 85px;
-    margin-left: 145px;
-}
+
+
 #sobre-mi footer {
     color: #E20000;
     font-weight: 100;
@@ -473,4 +462,41 @@ font-size: 14px;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 
+}
+
+#idiomas h4 {
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+#idiomas ul {
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+#idiomas .fas {
+    font-size: 80px;
+    color: white;
+}
+#sobre-mi .card {
+    height: 182px;
+}
+
+#idiomas .card-idioma {
+    border-radius: 15px;
+}
+
+#idiomas .card {
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+#idiomas {
+    background-color: #eee;
+}
+#idiomas h2 {
+    margin-right: 300px;
 }
