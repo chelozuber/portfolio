@@ -17,14 +17,18 @@ body {
 #inicio {
     background-image: url("../images/fondo-contacto.png");
         background-size: cover;
-
+           }
+#contacto .uu:hover {
+    color: blue;
 }
-
 #inicio footer .fa-github {
     font-size: 30px;
     color: white;
     
     
+}
+#proyectos .cf:hover {
+    color: #E20000;
 }
 .btn-rojo{
     background-color: #E20000;
@@ -185,12 +189,21 @@ form input[type=text], form input[type=email], form input[type=tel], form select
     resize: none;
 }
 
-#inicio main .tubo {
+#inicio  .tubo {
     height: 400px;
     margin:24px 0px 0px;
     padding: 0px 12px;
 }
-#inicio main .tubo:hover{
+
+#inicio .div-tubo {
+    height: 410px;
+}
+
+#inicio .tubo {
+    height: 400px;
+}
+
+#inicio .tubo:hover {
     height: 410px;
 }
 .p-1 {
@@ -464,22 +477,6 @@ font-size: 14px;
 
 }
 
-#idiomas h4 {
-    font-size: 16px;
-    font-weight: 600px;
-}
-
-#idiomas ul {
-    padding: 0px;
-    font-size: 14px;
-    color: #282828;
-    list-style-type: none;
-}
-
-#idiomas .fas {
-    font-size: 80px;
-    color: white;
-}
 #sobre-mi .card {
     height: 182px;
 }
@@ -497,6 +494,20 @@ font-size: 14px;
 #idiomas {
     background-color: #eee;
 }
+
 #idiomas h2 {
-    margin-right: 300px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+#idiomas ul {
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+#idiomas .fas {
+    font-size: 80px;
+    color: white;
 }
